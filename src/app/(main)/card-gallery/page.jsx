@@ -1,10 +1,12 @@
 import React from 'react'
-import ComponentA from './ComponentA'
+import ListCoffees from './ListCoffees'
 
 const page = () => {
   return (
     <div>
-      <ComponentA/>
+        
+
+        <ListCoffees/>
     </div>
   )
 }
