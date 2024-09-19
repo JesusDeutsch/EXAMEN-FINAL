@@ -11,13 +11,17 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+    
     <html lang="es">
       <body className={outfit.className}>
+      
         <div className="layout">
           <Sidebar />
-          <main className="content">{children}</main>
+          <main className="content bg-">{children}</main>
         </div>
+ 
       </body>
     </html>
+
   );
 }
