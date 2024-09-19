@@ -24,3 +24,21 @@ body {
     text-wrap: balance;
   }
 }
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px; /* Ajusta el ancho según sea necesario */
+  flex-shrink: 0;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px; /* Ajusta el padding según sea necesario */
+}
