@@ -22,7 +22,7 @@ const sideBar = () => {
           <Link href={'/clock'} className='flex gap-2'><FaRegClock size={25}/>Digital Clock</Link>
           </li>
           <li >
-          <Link href={'/driling-info'} className='flex gap-2'><FaInfoCircle size={25}/>Driling Info
+          <Link href={'/diling-info'} className='flex gap-2'><FaInfoCircle size={25}/>Driling Info
           </Link></li>
           <li className='flex items-center gap-2'>
             <RiGalleryView2 size={25}/>Galeria de cartas
