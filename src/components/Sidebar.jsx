@@ -16,7 +16,7 @@ const sideBar = () => {
       <div>
         <ul className='flex flex-col gap-4'>
           <li>
-            <Link href={'/driling-info'} className='flex gap-2'> <LiaIdCardSolid size={25}/>Card Generator
+            <Link href={'/cards'} className='flex gap-2'> <LiaIdCardSolid size={25}/>Card Generator
             </Link></li>
           <li className='flex items-center gap-2'>
           <Link href={'/clock'} className='flex gap-2'><FaRegClock size={25}/>Digital Clock</Link>
